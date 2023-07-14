@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,400;1,500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#text{
+    position: absolute;
+    width: 100%;
+    bottom: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+
+}
+
+#text h1{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 4vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+
+#top{
+    width: 100%;
+    height: 60%;
+    background-image: url(https://wallpapercave.com/wp/wp8120782.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#text-right i{
+    
+    color: white;
+    
+}
+
+#text-right{
+    align-items: center;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#text-right p{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+    width: 40%;
+    color: white;
+    font-weight: 800;
+}
+
+#bottom{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color: blue;
+}
+
+#bone{
+    width: 25%;
+    height: 100%;
+    padding: 2vw 2vw;
+    background-color: white
+}
+
+#bone h3{
+    padding: 2vw 0;
+    font-weight: 500;
+    
+}
+
+#btwo{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/originals/a2/dc/13/a2dc13955548ef738339ce3c1ff1303a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#bthree{
+    width: 20%;
+    height: 100%;
+}
+
+#bthreetop{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.hdqwalls.com/wallpapers/ancient-dragon-4k-i2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#bthreebottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/49/453/202/dragon-ball-z-dragon-ball-artwork-dragon-wallpaper-preview.jpg);
+    background-size: cover;
+
+}
+
+#bfour{
+    width: 30%;
+    height: 100%;
+    background-image: url(https://4kwallpapers.com/images/wallpapers/rainbow-dragon-4480x2520-9610.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#bfour h1{
+    padding: 18vw 1vw;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
